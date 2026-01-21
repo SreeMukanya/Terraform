@@ -1,5 +1,7 @@
 resource "aws_vpc" "name" {
     cidr_block = "10.0.0.0/16"
+
+    #it will follow the 2 resources depends on eachother
     depends_on = [ aws_subnet.name ]
   
 }
