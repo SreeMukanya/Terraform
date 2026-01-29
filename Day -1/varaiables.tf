@@ -5,7 +5,7 @@ variable "ami" {
   
 }
 
-variable "type" {
+variable "typee" {
 type = string
 default = ""
   
